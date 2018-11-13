@@ -3,7 +3,9 @@
 videos de react
 
 https://www.youtube.com/watch?v=Ke90Tje7VS0
+
 https://www.youtube.com/watch?v=PBTYxXADG_k&list=PLillGF-RfqbbiTGgA77tGO426V3hRF9iE
+
 https://in.accenture.com/frontendengineeringarchdev/train/online-training/react-js-redux/
 
 # Comandos para react
