@@ -14,7 +14,7 @@ class MyBotao extends Component {
     );
   }
 }
-
+ 
 class MyLabel extends Component {
   render() {
     {/* this.props.text-> ele pega o texto que eu passar no html */ }
@@ -23,6 +23,7 @@ class MyLabel extends Component {
   }
 }
  
+
 {/* tem obrigação da classe app herdar de Component do React */ }
 class App extends Component {
   /* this.state */
@@ -36,7 +37,6 @@ class App extends Component {
 
   setLabelText = (labelText) => {
     this.setState({ labelText: labelText });
-
   }
 
   render() {
@@ -56,8 +56,9 @@ class App extends Component {
       */}
 
         <div>
-          <h1>Teste de Reacts</h1>
 
+          <h1>Exercicio de ReactJs</h1>
+  
           {/* Chamando á classe do butão */}
           <MyLabel text={this.state.labelText} />
 
@@ -66,10 +67,9 @@ class App extends Component {
           <MyBotao funcaoClick={this.setLabelText} label="Botão 3" />
           <MyBotao funcaoClick={this.setLabelText} label="Botão 4" />
         </div>
-
       </div>
     );
-  }
+  } 
 }
 
 export default App;
