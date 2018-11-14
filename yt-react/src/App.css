@@ -30,3 +30,36 @@
     transform: rotate(360deg);
   }
 }
+
+.espacamento1{
+  padding-top: 10px;  
+}
+ 
+.espacamento2{ 
+  margin-right: 10px;
+}
+
+.espacamento3{ 
+  margin-left: 10px;
+}
+
+.corAzul{
+  background-color: blue;
+  color: azure;
+  font-display: unset;
+}
+.corVermelho{
+  background-color: crimson;
+  color: azure;
+  font-display: unset;
+}
+.corCinza{
+  background-color: darkgray;
+  color: black;
+  font-display: unset;
+}
+.corAmarelo{
+  background-color: goldenrod;
+  color: black;
+  font-display: unset;
+}
