@@ -1,14 +1,14 @@
-// This optional code is used to register a service worker.
-// register() is not called by default.
+// Este código opcional é usado para registrar um trabalhador de serviço.
+// register () não é chamado por padrão.
 
-// This lets the app load faster on subsequent visits in production, and gives
-// it offline capabilities. However, it also means that developers (and users)
-// will only see deployed updates on subsequent visits to a page, after all the
-// existing tabs open on the page have been closed, since previously cached
-// resources are updated in the background.
+// Isso permite que o aplicativo carregue mais rápido nas visitas subseqüentes na produção e fornece
+// recursos off-line. No entanto, isso também significa que os desenvolvedores (e usuários)
+// só verá atualizações implantadas em visitas subseqüentes a uma página, depois de todas as
+// as abas existentes abertas na página foram fechadas, desde que anteriormente armazenadas em cache
+// os recursos são atualizados em segundo plano.
 
-// To learn more about the benefits of this model and instructions on how to
-// opt-in, read http://bit.ly/CRA-PWA
+// Para saber mais sobre os benefícios deste modelo e instruções sobre como
+// opt-in, leia http://bit.ly/CRA-PWA
 
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
@@ -21,7 +21,9 @@ const isLocalhost = Boolean(
 );
 
 export function register(config) {
+  
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+
     // The URL constructor is available in all browsers that support SW.
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
     if (publicUrl.origin !== window.location.origin) {
