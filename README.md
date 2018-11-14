@@ -8,6 +8,8 @@ https://www.youtube.com/watch?v=PBTYxXADG_k&list=PLillGF-RfqbbiTGgA77tGO426V3hRF
 
 https://in.accenture.com/frontendengineeringarchdev/train/online-training/react-js-redux/
 
+diferença entre props e state-> https://lucybain.com/blog/2016/react-state-vs-pros/
+
 # Comandos para react
 
 sudo npm i -g create-react-app@1.5.2 // instalar o node no projeto
