@@ -1,13 +1,14 @@
 import React, { Component } from 'react'; 
  
 class Counter extends Component {
-  
+
     state = {
-     value: this.props.value,
+     value: this.props.counter.value,
      imageUrl: 'https://png.pngtree.com/element_origin_min_pic/16/11/20/185831763f61465.jpg',
      dados: ['tag1','tag2','tag3']
     };
-    
+   
+
     estilo = {
       fontSize: 20,     
       fontWeight: 'bold'
@@ -35,11 +36,11 @@ class Counter extends Component {
     handleIncrement = () => { 
       this.setState({ value: this.state.value + 1 });
     };
-  
+ 
     render() {  
 
       return ( 
-        <div> 
+        <div className="espacamento1 espacamento3"> 
             {/*
            <div> 
             { this.state.dados.length === 0 && "Por favor, insira dados!" }
@@ -47,8 +48,24 @@ class Counter extends Component {
           </div>
           */}
           <div>   
-            <span style={ this.estilo }>{ this.formatCount() }</span> 
-            <button onClick={this.handleIncrement}>Increment</button>                
+            <span 
+              className="espacamento2" 
+              style={ this.estilo }
+            >
+              { this.formatCount() }
+            </span> 
+            <button 
+              className="corCinza" 
+              onClick={ this.handleIncrement }
+            >
+              Increment
+            </button>    
+            <button 
+              className="espacamento3 corVermelho" 
+              onClick={ ()=> this.props.onDelete(this.props.counter.id) }
+            >
+              delete
+            </button> 
             <br/><br/>
             {/*
                 <img src={ this.state.imageUrl } alt="imagem"/>
