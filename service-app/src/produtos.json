@@ -1,0 +1,165 @@
+{
+    "produtos": [
+        {
+            "id": "1",
+            "name": "Lenovo V520S",
+            "price": 2.03787,
+            "quantity": 2,
+            "photo": "https://i.zst.com.br/images/pc-lenovo-intel-core-i3-7100-3-90-ghz-4-gb-hd-500-gb-v520s-sff-photo215228690-19-1b-38.jpg"
+        },
+        {
+            "id": "2",
+            "name": "All In One LG 24V570",
+            "price": 3.99900,
+            "quantity": 2,
+            "photo": "https://i.zst.com.br/images/all-in-one-lg-intel-core-i5-7200u-2-50-ghz-4-gb-hd-1-tb-23-8-windows-10-24v570-photo232780332-19-34-2f.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Dell 5675",
+            "price": 3.41900,
+            "quantity": 1,
+            "photo": "https://i.zst.com.br/images/pc-dell-inspiron-5000-amd-ryzen-5-1400-8-gb-hd-1-tb-radeon-rx-560-windows-10-5675-photo199077342-19-11-30.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Acer GX-783-BR-11",
+            "price": 3.25899,
+            "quantity": 2,
+            "photo": "https://i.zst.com.br/images/pc-acer-aspire-intel-core-i5-7400-3-00-ghz-8-gb-hd-1-tb-geforce-gtx-1050-ti-windows-10-gx-783-br11-photo500277022-19-14-32.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Mac Mini",
+            "price": 2.42879,
+            "quantity": 2,
+            "photo": "https://i.zst.com.br/images/mac-mini-apple-intel-core-i5-1-40-ghz-4-gb-hd-500-gb-intel-hd-graphics-mac-os-x-yosemite-mgem2bz-a-photo37089022-19-14-11.jpg"
+        },
+        {
+            "id": "6",
+            "name": "PC Oficina dos Bits Xtreme III",
+            "price": 4.47557,
+            "quantity": 4,
+            "photo": "https://i.zst.com.br/images/pc-oficina-dos-bits-gamer-intel-core-i5-3-60-ghz-8-gb-hd-2-tb-geforce-gtx-1060-bits-xtreme-iii-photo215687133-19-17-15.jpg"
+        },
+        {
+            "id": "7",
+            "name": "iMac MMQA2BZ",
+            "price": 6.57900,
+            "quantity": 2,
+            "photo": "https://i.zst.com.br/images/imac-apple-intel-core-i5-2-30-ghz-8-gb-hd-1-tb-21-5-mac-os-sierra-mmqa2bz-a-photo196702214-19-3-39.jpg"
+        },
+        {
+            "id": "8",
+            "name": "Acer GX-783-BR13",
+            "price": 4.57990,
+            "quantity": 2,
+            "photo": "https://i.zst.com.br/images/pc-acer-aspire-intel-core-i7-7700-3-60-ghz-16-gb-hd-1-tb-ssd-8-gb-geforce-gtx-1060-windows-10-gx-783-br13-photo500277380-19-3b-32.jpg"
+        },
+        {
+            "id": "9",
+            "name": "Samsung Galaxy S9 Plus",
+            "price": 2.59990,
+            "quantity": 2,
+            "photo": "https://curiosando.com.br/wp-content/uploads/2017/08/1-Samsung-Galaxy-S9-Plus.jpg"
+        },
+        {
+            "id": "10",
+            "name": "iPhone X",
+            "price": 10.59990,
+            "quantity": 2,
+            "photo": "https://curiosando.com.br/wp-content/uploads/2017/08/2-iPhone-X.jpg"
+        },
+        {
+            "id": "11",
+            "name": "Huawei P20 Pro",
+            "price": 6.27990,
+            "quantity": 2,
+            "photo": "https://curiosando.com.br/wp-content/uploads/2017/08/3-Huawei-P20-Pro.jpg"
+        },
+        {
+            "id": "12",
+            "name": "Samsung Galaxy S9",
+            "price": 3.27990,
+            "quantity": 4,
+            "photo": "https://curiosando.com.br/wp-content/uploads/2017/08/4-Samsung-Galaxy-S9.jpg"
+        },
+        {
+            "id": "13",
+            "name": "Google Pixel 2 XL",
+            "price": 5.23990,
+            "quantity": 1,
+            "photo": "https://curiosando.com.br/wp-content/uploads/2017/08/5-Google-Pixel-2-XL.jpg"
+        },
+        {
+            "id": "14",
+            "name": "Huawei Mate 10 Pro",
+            "price": 4.73999,
+            "quantity": 7,
+            "photo": "https://curiosando.com.br/wp-content/uploads/2017/08/6-Huawei-Mate-10-Pro.jpg"
+        },
+        {
+            "id": "15",
+            "name": "Samsung Galaxy Note 8",
+            "price": 3.93999,
+            "quantity": 11,
+            "photo": "https://curiosando.com.br/wp-content/uploads/2017/08/7-Samsung-Galaxy-Note-8.jpg"
+        },
+        {
+            "id": "16",
+            "name": "LG V30",
+            "price": 3.23979,
+            "quantity": 6,
+            "photo": "https://curiosando.com.br/wp-content/uploads/2017/08/8-LG-V30.jpg"
+        },
+        {
+            "id": "17",
+            "name": "Samsung Galaxy S8",
+            "price": 4.29979,
+            "quantity": 6,
+            "photo": "https://curiosando.com.br/wp-content/uploads/2017/08/9-Samsung-Galaxy-S8.jpg"
+        },
+        {
+            "id": "18",
+            "name": "Huawei P20",
+            "price": 7.29979,
+            "quantity": 2,
+            "photo": "https://curiosando.com.br/wp-content/uploads/2017/08/10-Huawei-P20.jpg"
+        },
+        {
+            "id": "19",
+            "name": "JBL com Microfone T110",
+            "price": 37.90,
+            "quantity": 2,
+            "photo": "https://i.zst.com.br/images/fone-de-ouvido-com-microfone-jbl-t110-photo179711802-19-22-37.jpg"
+        },
+        {
+            "id": "20",
+            "name": "JBL com Microfone T290",
+            "price": 85.90,
+            "quantity": 2,
+            "photo": "https://i.zst.com.br/images/fone-de-ouvido-com-microfone-jbl-t290-photo673902189-19-6-3b.jpg"
+        },
+        {
+            "id": "21",
+            "name": "Multilaser com Microfone Arco Sport",
+            "price": 87.90,
+            "quantity": 2,
+            "photo": "https://i.zst.com.br/images/fone-de-ouvido-bluetooth-com-microfone-academia-multilaser-arco-sport-photo139673616-19-11-32.jpg"
+        },
+        {
+            "id": "22",
+            "name": "JBL com Microfone T110BT",
+            "price": 139.90,
+            "quantity": 2,
+            "photo": "https://i.zst.com.br/images/fone-de-ouvido-bluetooth-com-microfone-jbl-t110bt-photo233000371-19-3-30.jpg"
+        },
+        {
+            "id": "23",
+            "name": "JBL com Microfone E25BT",
+            "price": 199.90,
+            "quantity": 2,
+            "photo": "https://i.zst.com.br/images/fone-de-ouvido-bluetooth-com-microfone-jbl-e25bt-photo179711823-19-1-37.jpg"
+        }
+    ]
+}
