@@ -12,6 +12,9 @@ https://in.accenture.com/frontendengineeringarchdev/train/online-training/react-
 
 diferença entre props e state-> https://lucybain.com/blog/2016/react-state-vs-pros/
 
+explicação do zero->
+https://app.pluralsight.com/player?course=react-js-getting-started&author=samer-buna&name=react-js-getting-started-m5&clip=5&mode=live
+
 # Comandos para react
 
 sudo npm i -g create-react-app@1.5.2 // instalar o node no projeto
