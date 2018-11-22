@@ -31,3 +31,43 @@ create-react-app nomeDoProjeto-app //
 
 
 React Developer Tools //ferramenta de debugar codigo em react
+
+# function component
+é um contrato simples. ele recebe um objeto de propriedade, nos chamamos de props no reacty,
+e ele retorna o que parece ser HTML, mas é realmente uma sintaxe JavaSript especial chamada JSX. 
+
+exemplo->
+const MyComponent  = (props) =>{
+	return(
+		<elementOrComponent/>
+	);
+}
+
+
+# class component
+é uma maneira mais detalhada de definir com componente no reacty.
+Ele tambem age como uma função que recebe props, mas essa função tambem considera um estado interno privado como entrada
+adicional que controla um JSX retornado.não pode mudar suas propiedades só o seu estado interno
+
+exemplo->
+class MyComponent extends React.Component{
+	render(){
+		return(
+			<elementOrComponent/>
+		);
+	}
+}  
+
+
+# props
+
+contem todos os valores que foram passados, quando o componente foi reenderizado.
+exemplo->
+
+const Button = function (props) {
+	return (
+		<button>{props.label}</button>
+	);
+};
+
+ReactDOM.render(<Button label="do"/>, mountNode); 
