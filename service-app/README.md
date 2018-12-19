@@ -1,5 +1,25 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+> Instalar as dependencias
+
+### `npm install`
+
+## Json-server
+
+exemplo de json-serve-> https://www.devpleno.com/json-server-como-criar-uma-rest-api-para-testes-de-forma-simples/
+
+> abrir um terminal, só para execultar o json-server
+
+> instalar o json server se não estiver instalado  
+### `npm install -g json-server`
+
+> executar o arquivo "produtos.json" para que fique disponivel para aplicação   
+### `json-server --watch produtos.json`
+
+> ele irá ficar com os dados disponiveis na url abaixo  
+### Open [http://localhost:3000/produtos](http://localhost:3000/produtos) to view it in the browser.
+ 
+ 
 ## Available Scripts
 
 In the project directory, you can run:
